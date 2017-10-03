@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.ui.large.form {
+  height: 265px;
+  background-color: #CCFFFF;
+}
+
+ui.statistic {
+  background-color: gainsboro;
+}
