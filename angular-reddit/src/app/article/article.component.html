@@ -1,4 +1,4 @@
-<div class="four wide column center aligned votes">
+<div class="four wide column center aligned votes vote-box">
   <div class="ui statistic">
     <div class="value">
       {{ article.votes }}
@@ -12,18 +12,19 @@
   <a class="ui large header" href="{{ article.link }}">
     {{ article.title }}
   </a>
-  <ul class="ui big horizontal list voters">
-    <li class="item">
+  <div class="meta">({{ article.domain() }})</div>
+  <div class="ui list big horizontal voters">
+    <div class="item">
       <a href (click)="voteUp()">
         <i class="arrow up icon"></i>
         upvote
       </a>
-    </li>
-    <li class="item">
+    </div>
+    <div class="item">
       <a href (click)="voteDown()">
         <i class="arrow down icon"></i>
         downvote
       </a>
-    </li>
-  </ul>
+    </div>
+  </div>
 </div>

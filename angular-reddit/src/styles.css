@@ -1,5 +1,5 @@
 body {
-  width: 80%;
+  width: 75%;
   margin: auto;
   padding: 10px;
 
@@ -13,3 +13,8 @@ body {
 ui.statistic {
   background-color: gainsboro;
 }
+
+.vote-box {
+  background-color: lightgrey;
+}
+
